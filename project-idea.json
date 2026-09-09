@@ -1,0 +1,31 @@
+{
+  "project_name": "embedkit",
+  "title": "EmbedKit - Production Embedding Pipeline Toolkit",
+  "category": "vector-search",
+  "difficulty": "advanced",
+  "description": "A pip-installable toolkit for building embedding pipelines. Multiple chunking strategies, embedding generation with caching, unified vector store interface supporting FAISS and in-memory backends.",
+  "tech_stack": [
+    "sentence-transformers",
+    "faiss-cpu",
+    "numpy",
+    "click",
+    "pydantic",
+    "pytest"
+  ],
+  "features": [
+    "Multiple chunking strategies",
+    "Embedding generation with disk caching",
+    "Vector store abstraction: FAISS and in-memory",
+    "Hybrid search: vector + BM25",
+    "CLI tool for indexing and querying"
+  ],
+  "test_status": "PASSED",
+  "sample_input": {
+    "description": "Documents to index and search",
+    "example": "embedkit index --input docs/ --store my_index"
+  },
+  "sample_output": {
+    "description": "Search results with similarity scores",
+    "example": "embedkit search --query 'machine learning' --top-k 5"
+  }
+}
