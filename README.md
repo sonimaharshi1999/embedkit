@@ -1,8 +1,13 @@
 # EmbedKit - Production Embedding Pipeline Toolkit
 
-![Tests](https://github.com/sonimaharshi1999/embedkit/actions/workflows/test.yml/badge.svg) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Tests](https://github.com/sonimaharshi1999/embedkit/actions/workflows/test.yml/badge.svg) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg) [![PyPI](https://img.shields.io/pypi/v/embedkit-py)](https://pypi.org/project/embedkit-py/) [![Downloads](https://img.shields.io/pypi/dm/embedkit-py)](https://pypi.org/project/embedkit-py/)
 
 A pip-installable toolkit for building embedding pipelines. Provides multiple chunking strategies (fixed, semantic, recursive), embedding generation with local disk caching, and a unified vector store interface supporting FAISS and in-memory backends. Designed as reusable infrastructure for RAG systems.
+
+
+`ash
+pip install embedkit-py
+`
 
 ## Why I Built This
 
