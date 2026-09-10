@@ -3,7 +3,7 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "embedkit"
+name = "embedkit-py"
 version = "0.1.0"
 description = "Production embedding pipeline toolkit for building RAG systems with multiple chunking strategies, cached embeddings, and unified vector store interfaces."
 readme = "README.md"
