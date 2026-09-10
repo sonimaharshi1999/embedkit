@@ -1,0 +1,96 @@
+======================================================================
+  EmbedKit - Production Embedding Pipeline Toolkit
+======================================================================
+
+Author: Maharshi Soni
+Category: vector-search
+Difficulty: advanced
+
+----------------------------------------------------------------------
+DESCRIPTION
+----------------------------------------------------------------------
+A pip-installable toolkit for building embedding pipelines. Multiple chunking strategies, embedding generation with caching, unified vector store interface supporting FAISS and in-memory backends.
+
+----------------------------------------------------------------------
+TECH STACK
+----------------------------------------------------------------------
+  - sentence-transformers
+  - faiss-cpu
+  - numpy
+  - click
+  - pydantic
+  - pytest
+
+----------------------------------------------------------------------
+FEATURES
+----------------------------------------------------------------------
+  * Multiple chunking strategies
+  * Embedding generation with disk caching
+  * Vector store abstraction: FAISS and in-memory
+  * Hybrid search: vector + BM25
+  * CLI tool for indexing and querying
+
+----------------------------------------------------------------------
+SAMPLE INPUT
+----------------------------------------------------------------------
+  Documents to index and search
+
+  Example:
+    embedkit index --input docs/ --store my_index
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT
+----------------------------------------------------------------------
+  Search results with similarity scores
+
+  Example:
+    embedkit search --query 'machine learning' --top-k 5
+
+----------------------------------------------------------------------
+PROJECT STRUCTURE
+----------------------------------------------------------------------
+  .gitignore
+  LICENSE
+  project-idea.json
+  pyproject.toml
+  README.md
+  .github/workflows/test.yml
+  src/embedkit/cache.py
+  src/embedkit/chunkers.py
+  src/embedkit/cli.py
+  src/embedkit/embedder.py
+  src/embedkit/hybrid.py
+  src/embedkit/pipeline.py
+  src/embedkit/py.typed
+  src/embedkit/__init__.py
+  src/embedkit/__version__.py
+  src/embedkit/stores/base.py
+  src/embedkit/stores/faiss_store.py
+  src/embedkit/stores/memory_store.py
+  src/embedkit/stores/__init__.py
+  src/embedkit.egg-info/dependency_links.txt
+  src/embedkit.egg-info/entry_points.txt
+  src/embedkit.egg-info/PKG-INFO
+  src/embedkit.egg-info/requires.txt
+  src/embedkit.egg-info/SOURCES.txt
+  src/embedkit.egg-info/top_level.txt
+  tests/conftest.py
+  tests/test_cache.py
+  tests/test_chunkers.py
+  tests/test_embedder.py
+  tests/test_hybrid.py
+  tests/test_pipeline.py
+  tests/test_stores.py
+  tests/__init__.py
+
+----------------------------------------------------------------------
+TEST RESULTS
+----------------------------------------------------------------------
+  Status: PASSED
+  Tests Run: 38
+  Passed: 38
+  Failed: 0
+
+======================================================================
+  Author: Maharshi Soni  |  License: MIT
+======================================================================

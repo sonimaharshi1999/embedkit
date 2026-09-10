@@ -1,5 +1,7 @@
 # EmbedKit - Production Embedding Pipeline Toolkit
 
+![Tests](https://github.com/sonimaharshi1999/embedkit/actions/workflows/test.yml/badge.svg) ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 A pip-installable toolkit for building embedding pipelines. Provides multiple chunking strategies (fixed, semantic, recursive), embedding generation with local disk caching, and a unified vector store interface supporting FAISS and in-memory backends. Designed as reusable infrastructure for RAG systems.
 
 ## Why I Built This
@@ -237,6 +239,25 @@ embedkit/
     test_embedder.py
     test_pipeline.py
 ```
+
+
+
+---
+
+## Sample Input / Output
+
+![Sample Input and Output](assets/io-card.png)
+
+---
+
+## Project Overview
+
+![Project Summary](assets/report-card.png)
+
+### Reports
+- [HTML Report](reports/embedkit-report.html) - interactive report
+- [PDF Report](reports/embedkit-report.pdf) - downloadable PDF
+- [TXT Report](reports/embedkit-report.txt) - plain text
 
 ## License
 
