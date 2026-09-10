@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "embedkit-py"
-version = "0.1.0"
+version = "0.1.1"
 description = "Production embedding pipeline toolkit for building RAG systems with multiple chunking strategies, cached embeddings, and unified vector store interfaces."
 readme = "README.md"
 license = {text = "MIT"}
@@ -43,9 +43,9 @@ dev = [
 embedkit = "embedkit.cli:cli"
 
 [project.urls]
-Homepage = "https://github.com/maharshisoni/embedkit"
-Repository = "https://github.com/maharshisoni/embedkit"
-Issues = "https://github.com/maharshisoni/embedkit/issues"
+Homepage = "https://github.com/sonimaharshi1999/embedkit"
+Repository = "https://github.com/sonimaharshi1999/embedkit"
+Issues = "https://github.com/sonimaharshi1999/embedkit/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

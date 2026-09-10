@@ -100,7 +100,7 @@ print(f"Indexed {stats.total_chunks} chunks, {stats.cache_size} cached embedding
 
 ```bash
 # From source
-git clone https://github.com/maharshisoni/embedkit.git
+git clone https://github.com/sonimaharshi1999/embedkit.git
 cd embedkit
 pip install -e ".[dev]"
 
